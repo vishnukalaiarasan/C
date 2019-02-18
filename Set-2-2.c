@@ -2,7 +2,7 @@
 #include<conio.h>
 void main()
 {
-int n,i,sum=0,temp,m;
+int m,n,i,temp,sum=0;
 clrscr();
 scanf("%d",&n);
 m=n;
