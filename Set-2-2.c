@@ -1,25 +1,27 @@
-#include <stdio.h>
-int main()
+#include<stdio.h>
+#include<conio.h>
+void main()
 {
-    int n,m,i,sum=0,temp;
-    scanf("%d",&n);
-    n=m;
-    if(n<=1000)
-    {
-    while(n!=0)
-    {
-        temp=n%10;
-        sum=sum*10+temp;
-        n=n/100;
-    }
-    }
-    if(m==sum)
-    {
-        printf("Yes");
-    }
-    else
-    {
-        printf("No");
-    }
-    return 0;
+int n,i,sum=0,temp,m;
+clrscr();
+scanf("%d",&n);
+m=n;
+if(n<=1000)
+{
+while(n!=0)
+{
+temp=n%10;
+sum=sum*10+temp;
+n=n/10;
+}
+}
+if(m==sum)
+{
+printf("yes");
+}
+else
+{
+printf("no");
+} 
+getch();
 }
