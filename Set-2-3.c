@@ -3,7 +3,6 @@
 void main()
 {
 int num,i,flag=0;
-clrscr();
 scanf("%d",&num);
 for(i=2;i<=num/2;i++)
 {
